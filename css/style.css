@@ -10,6 +10,9 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+.ms_star {
+    font-size: 1.2rem;
+}
 
 /* ***** header ***** */
 
@@ -39,6 +42,9 @@ main .ms_about {
     background-color: #1ABC9C;
 }
 
+main .ms_start img {
+    width: 180px;
+}
 
 /* ***** footer ***** */
 
@@ -70,9 +76,9 @@ footer .ms_footer-bottom .row {
     border: 1px solid black;
 } */
 
-.debug main .ms_start {
+/* .debug main .ms_start {
     height: 200px;
-}
+} */
 
 .debug main .ms_portfolio .col {
     height: 100px;
