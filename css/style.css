@@ -29,7 +29,8 @@ header .row {
 
 /* ***** main ***** */
 
-main .ms_start {
+main .ms_start,
+main .ms_about {
     background-color: #1ABC9C;
 }
 
@@ -51,5 +52,13 @@ main .ms_start {
 }
 
 .debug main .ms_portfolio .col {
+    height: 100px;
+}
+
+.debug main .ms_about {
+    height: 400px;
+}
+
+.debug main .ms_about .col-12 {
     height: 100px;
 }
