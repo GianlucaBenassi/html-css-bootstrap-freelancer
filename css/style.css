@@ -26,13 +26,26 @@ header .row {
     height: 100%;
 }
 
+
+/* ***** main ***** */
+
+main .ms_start {
+    background-color: #1ABC9C;
+}
+
+
 /* +++++ debug +++++ */
 
 .debug div[class*="container"] {
     border: 1px solid blue;
+    height: 100%;
 }
 
 .debug div[class*="col"] {
     background-color: tomato;
     border: 1px solid black;
+}
+
+.debug main .ms_start {
+    height: 200px;
 }
