@@ -32,6 +32,10 @@ body {
     border-image-source: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
 }
 
+.ms_star-black::after {
+    border-image-source: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 40%, rgba(0,0,0,0) 40%, rgba(0,0,0,0) 60%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 100%);
+}
+
 /* ***** header ***** */
 
 header {
@@ -98,9 +102,9 @@ footer .ms_footer-bottom .row {
     height: 200px;
 } */
 
-.debug main .ms_portfolio .col {
+/* .debug main .ms_portfolio .col {
     height: 100px;
-}
+} */
 
 .debug main .ms_about {
     height: 400px;
