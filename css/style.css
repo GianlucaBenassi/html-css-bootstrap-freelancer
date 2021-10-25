@@ -62,3 +62,7 @@ main .ms_about {
 .debug main .ms_about .col-12 {
     height: 100px;
 }
+
+.debug main .ms_contact .col-12 {
+    height: 100px;
+}
