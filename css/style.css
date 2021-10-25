@@ -35,6 +35,17 @@ main .ms_about {
 }
 
 
+/* ***** footer ***** */
+
+footer .ms_footer-top {
+    background-color: #3A546D;
+}
+
+footer .ms_footer-bottom {
+    height: 50px;
+    background-color: #2C3E50;
+}
+
 /* +++++ debug +++++ */
 
 .debug div[class*="container"] {
@@ -65,4 +76,8 @@ main .ms_about {
 
 .debug main .ms_contact .col-12 {
     height: 100px;
+}
+
+.debug footer .ms_footer-top {
+    height: 200px;
 }
