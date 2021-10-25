@@ -18,10 +18,6 @@ header {
     background-color: #2C3E50;
 }
 
-header .container {
-    height: 100%;
-}
-
 header .row {
     height: 100%;
 }
@@ -42,8 +38,12 @@ footer .ms_footer-top {
 }
 
 footer .ms_footer-bottom {
-    height: 50px;
+    height: 80px;
     background-color: #2C3E50;
+}
+
+footer .ms_footer-bottom .row {
+    height: 100%;
 }
 
 /* +++++ debug +++++ */
@@ -78,9 +78,9 @@ footer .ms_footer-bottom {
     height: 100px;
 }
 
-.debug footer .ms_footer-top {
+/* .debug footer .ms_footer-top {
     height: 200px;
-}
+} */
 
 .debug footer .ms_footer-top .col-12 {
     height: 100px;
