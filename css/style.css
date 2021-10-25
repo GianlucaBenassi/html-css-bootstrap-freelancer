@@ -81,3 +81,7 @@ footer .ms_footer-bottom {
 .debug footer .ms_footer-top {
     height: 200px;
 }
+
+.debug footer .ms_footer-top .col-12 {
+    height: 100px;
+}
