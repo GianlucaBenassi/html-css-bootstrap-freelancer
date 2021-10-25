@@ -18,10 +18,19 @@ header {
     background-color: #2C3E50;
 }
 
-header .row {
+header .container,
+header .row  {
     height: 100%;
 }
 
+header nav ul li a {
+    font-size: .8rem;
+}
+
+header nav ul button {
+    color: #89929A;
+    border-color: #89929A;
+}
 
 /* ***** main ***** */
 
@@ -42,21 +51,24 @@ footer .ms_footer-bottom {
     background-color: #2C3E50;
 }
 
+
+footer .ms_footer-bottom .container,
 footer .ms_footer-bottom .row {
     height: 100%;
 }
 
 /* +++++ debug +++++ */
-
+/* 
 .debug div[class*="container"] {
     border: 1px solid blue;
     height: 100%;
-}
+} */
 
-.debug div[class^="col"] {
+/* .debug div[class^="col"],
+.debug nav[class^="col"] {
     background-color: tomato;
     border: 1px solid black;
-}
+} */
 
 .debug main .ms_start {
     height: 200px;
