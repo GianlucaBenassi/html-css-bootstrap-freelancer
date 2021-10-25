@@ -9,3 +9,30 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+
+/* ***** header ***** */
+
+header {
+    height: 80px;
+    background-color: #2C3E50;
+}
+
+header .container {
+    height: 100%;
+}
+
+header .row {
+    height: 100%;
+}
+
+/* +++++ debug +++++ */
+
+.debug div[class*="container"] {
+    border: 1px solid blue;
+}
+
+.debug div[class*="col"] {
+    background-color: tomato;
+    border: 1px solid black;
+}
