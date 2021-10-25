@@ -10,8 +10,26 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.ms_star {
+.fa-star {
     font-size: 1.2rem;
+    border: 1px;
+    position: relative;
+}
+
+.fa-star::after {
+    content: '';
+    display: block;
+    width: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-top: 2px solid;
+    border-image-slice: 1;
+}
+
+.ms_star-white::after {
+    border-image-source: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0) 40%, rgba(255,255,255,0) 60%, rgba(255,255,255,1) 60%, rgba(255,255,255,1) 100%);
 }
 
 /* ***** header ***** */
