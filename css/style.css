@@ -98,6 +98,10 @@ footer .ms_link-green {
     text-decoration: none;
 }
 
+footer .ms_footer-bottom {
+    font-size: .8rem;
+}
+
 /* +++++ debug +++++ */
 /* 
 .debug div[class*="container"] {
