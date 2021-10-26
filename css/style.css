@@ -62,6 +62,15 @@ main .ms_start img {
     width: 180px;
 }
 
+main .ms_contact .ms_textarea {
+    min-height: 150px;
+}
+
+main .ms_btn-green {
+    color: #fff;
+    background-color: #1ABC9C;
+}
+
 /* ***** footer ***** */
 
 footer .ms_footer-top {
