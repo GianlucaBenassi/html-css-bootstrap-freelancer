@@ -88,6 +88,16 @@ footer .ms_footer-bottom .row {
     height: 100%;
 }
 
+footer .ms_circle {
+    width: 1.3rem;
+    height: 1.5rem;
+}
+
+footer .ms_link-green {
+    color: #1ABC9C;
+    text-decoration: none;
+}
+
 /* +++++ debug +++++ */
 /* 
 .debug div[class*="container"] {
@@ -125,6 +135,6 @@ footer .ms_footer-bottom .row {
     height: 200px;
 } */
 
-.debug footer .ms_footer-top .col-12 {
+/* .debug footer .ms_footer-top .col-12 {
     height: 100px;
-}
+} */
