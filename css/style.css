@@ -32,24 +32,10 @@ body {
 
 /* ***** header ***** */
 
-header {
-    height: 80px;
+.ms_nav-bg{
     background-color: #2C3E50;
 }
 
-header .container,
-header .row  {
-    height: 100%;
-}
-
-header nav ul li a {
-    font-size: .8rem;
-}
-
-header nav ul button {
-    color: #89929A;
-    border-color: #89929A;
-}
 
 /* ***** main ***** */
 
