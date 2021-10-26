@@ -1,11 +1,5 @@
 /* ***** commons ***** */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
     font-family: 'Roboto', sans-serif;
 }
@@ -114,9 +108,9 @@ footer .ms_footer-bottom .row {
     height: 100px;
 } */
 
-.debug main .ms_contact .col-12 {
+/* .debug main .ms_contact .col-12 {
     height: 100px;
-}
+} */
 
 /* .debug footer .ms_footer-top {
     height: 200px;
