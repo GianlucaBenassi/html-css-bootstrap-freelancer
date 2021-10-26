@@ -45,7 +45,17 @@ main .ms_about {
 }
 
 main .ms_start img {
-    width: 180px;
+    max-width: 200px;
+}
+
+main .ms_layover {
+    background-color: rgba(25,188,156,0.6);
+}
+
+main .ms_portfolio .col:hover .ms_layover {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
 }
 
 main .ms_contact .ms_textarea {
